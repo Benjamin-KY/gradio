@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM python:3.12.0a5-slim
 
 RUN apt-get update
 RUN curl -fsSL https://deb.nodesource.com/setup_14.x | bash -
